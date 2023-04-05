@@ -57,7 +57,7 @@ function showSum(a: number, b: number): void {
     console.log(a + b);
 }
 
-function incAge(someUser, inc: number): object {
+function incAge(someUser: IUser, inc: number): IUser {
     someUser.age += inc
     return someUser
 }
